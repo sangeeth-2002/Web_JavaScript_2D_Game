@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Final Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body" onkeyup="keyCheck(event);"
+    onload=" idleAnimation();  roboAnimation(); createBox_1(); createCoin_1(); createBomb(); optPanelCome();">
+
+
+    <div class="background" id="background">
+
+        <div class="frame"></div>
+        <div class="scorePanel">
+
+            <img src="resources/You_Lose/Score.png" class="scoreMainIm">
+            <img src="resources/You_Lose/Table.png" class="tableMain">
+            <img src="resources/coin.gif" class="coinMainIm">
+            <img src="resources/You_Lose/Table.png" class="tableCMain">
+
+            <div class="scoreMain" id="scoreMain"></div>
+            <div class="coinxMain" id="coinMain"></div>
+
+        </div>
+
+        <div class="rankPanel" id="rankPanel">
+
+            <img src="resources/You_Lose/1.png" class="rank" id="rank">
+            <!-- <img src="resources/chear.gif" class="chear" id="chear"> -->
+
+        </div>
+
+        <div class="optPanel" id="optPanel">
+
+            <img src="resources/BTNs/Menu_BTN.png" class="menuinopt" id="menuinopt" onclick="MainMenu();">
+            <img src="resources/BTNs/Sound_BTN.png" class="soundinopt" id="soundinopt" onclick="soundOnOff();">
+            <img src="resources/BTNs/Info_BTN.png" class="inforinopt" id="inforinopt" onclick="inforPanel();">
+        </div>
+
+        <div class="inforPaneling" id="inforPaneling">
+
+            <img src="resources/GUI/Window_Infor.png" class="inforPanelingIm" id="inforPanelingIm">
+
+
+
+            <div class="info">
+                <img src="resources/BTNs/Ok_BTN.png" class="Ok_BTN" id="Ok_BTN" onclick="okBtn();">
+            </div>
+
+        </div>
+
+        <div class="endScreen" id="endScreen">
+
+            <img src="resources/You_Lose/Header.png" class="lossheader" id="lossheader">
+            <div class="coincount" id="coincount"></div>
+            <img src="resources/coin.gif" class="coininend">
+            <img src="resources/You_Lose/Score.png" class="scoreIm">
+            <img src="resources/You_Lose/Table.png" class="table">
+            <div class="scoreinend" id="scoreinend">0</div>
+            <img src="resources/Idle (1).png" class="idle" id="idle">
+            <img src="resources/You_Lose/Replay_BTN.png" class="reset" id="reset" onclick="restartgame();">
+            <img src="resources/BTNs/Sound_BTN.png" class="sound" id="sound" onclick="soundOnOff();">
+            <img src="resources/BTNs/Menu_BTN.png" class="menu" id="menu" onclick="MainMenu();">
+            <img src="resources/You_Lose/1.png" class="place" id="place">
+            
+        </div>
+
+
+        <img src="resources/Idle (1).png" id="boy" class="boy" />
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

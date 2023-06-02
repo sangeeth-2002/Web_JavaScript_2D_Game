@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Level 2</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body class="b" onkeyup="keyCheck(event);">
+
+    <div class="background" id="background">
+
+        <div class="frame"></div>
+        <div class="scorePanel">
+
+            <img src="resources/You_Lose/Score.png" class="scoreMainIm">
+            <img src="resources/You_Lose/Table.png" class="tableMain">
+            <img src="resources/coin.gif" class="coinMainIm">
+            <img src="resources/You_Lose/Table.png" class="tableCMain">
+            <div class="scoreMain" id="scoreMain"></div>
+            <div class="coinMain" id="coinMain"></div>
+
+        </div>
+
+        <div class="rankPanel" id="rankPanel">
+
+            <img src="resources/You_Lose/1.png" class="rank" id="rank">
+
+        </div>
+
+        <div class="optPanel" id="optPanel">
+
+            <img src="resources/BTNs/Menu_BTN.png" class="menuinopt" id="menuinopt" onclick="MainMenu();">
+            <img src="resources/BTNs/Sound_BTN.png" class="soundinopt" id="soundinopt" onclick="soundOnOff();">
+            <img src="resources/BTNs/Info_BTN.png" class="inforinopt" id="inforinopt" onclick="inforPanel();">
+        </div>
+
+        <!-- Spider Coming-------------------------------------------------------->
+        <div class="spiderDiv" id="spiderDiv">
+   
+        </div>
+
+        <img src="resources/Idle (1).png" id="boy" class="boy" />
+
+    </div>
+    <script src="script3.js"></script>
+</body>
+
+</html>

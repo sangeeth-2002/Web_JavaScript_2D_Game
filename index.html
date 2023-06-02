@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styleWelcome.css">
+</head>
+
+<body class="body" onload="mainMenuCome();">
+
+    <div class="background" id="background">
+
+        <div class="mainMenu1" id="mainMenu1">
+
+            <img src="resources/BTNs/Start_BTN.png" class="Start_BTN" id="Start_BTN" onclick="startGame();">
+            <img src="resources/BTNs/Info_BTN.png" class="Info_BTN" id="Info_BTN" onclick="inforPanel();">
+            <img src="resources/BTNs/Settings_BTN.png" class="Settings_BTN" id="Settings_BTN" onclick="settingPanel();">
+            <img src="resources/BTNs/Music_BTN.png" class="Music_BTN" id="Music_BTN" onclick="playMusic();">
+
+        </div>
+
+        <div class="robo" id="robo" onload="idleAnimation();">
+            <img src="resources/Idle (1).png" class="Idle" id="Idle">
+        </div>
+
+        <div class="infordiv" id="infordiv">
+
+            <img src="resources/BTNs/Menu_BTN.png" class="Menu_BTN" id="Menu_BTN" onclick="menu();">
+            <img src="resources/info1.png" class="info">
+
+        </div>
+
+        <div class="settings" id="settings">
+
+            <img src="resources/settings.png" class="settinglabel">
+            <img src="resources/music.png" class="Music_lbl" id="Music_lbl" onclick="playMusic();">
+            <img src="resources/BTNs/Menu_BTN.png" class="Menu_BTN1" id="Menu_BTN1" onclick="menu_s();">
+
+        </div>
+
+
+    </div>
+    <script src="scriptWelcome.js"></script>
+</body>
+
+</html>

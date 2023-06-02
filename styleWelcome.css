@@ -1,0 +1,191 @@
+.body {
+
+    margin: 0px;
+}
+
+.background {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("resources/BG2.png");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+
+}
+
+.mainMenu1 {
+
+    width: 1050px;
+    height: 530px;
+    /* background-color: red; */
+    position: absolute;
+    margin-left: 2000px;
+    margin-top: 350px;
+}
+
+.Start_BTN {
+
+    margin-left: 395px;
+    margin-top: 140px;
+    position: absolute;
+    height: 90px;
+    
+}
+
+.Start_BTN:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    
+}
+
+
+.Info_BTN {
+
+    margin-left: 270px;
+    margin-top: 390px;
+    position: absolute;
+    height: 90px;
+}
+
+.Info_BTN:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+.Settings_BTN {
+
+    margin-left: 500px;
+    margin-top: 390px;
+    position: absolute;
+    height: 90px;
+}
+
+.Settings_BTN:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.Music_BTN {
+
+    margin-left: 730px;
+    margin-top: 390px;
+    position: absolute;
+    height: 90px;
+}
+
+
+.Music_BTN:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+/* Robot------------------------------------------------------------------------------------------- */
+
+.robo {
+
+    margin-top: 320px;
+    margin-left: -500px;
+    height: 100px;
+    position: absolute;
+}
+
+/* Infor Panel------------------------------------------------------------------- */
+
+.infordiv {
+
+    height: 500px;
+    width: 500px;
+    margin-top: 360px;
+    margin-left: 800px;
+    background-image: url("resources/GUI/Window_Infor.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.Menu_BTN {
+
+
+    height: 50px;
+    margin-top: 435px;
+    margin-left: 150px;
+    position: absolute;
+
+}
+
+.Menu_BTN:hover {
+
+    cursor: pointer;
+}
+
+.info{
+
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+/* --Settings Panel-------------------------------------------------------------- */
+
+.settings {
+
+    height: 500px;
+    width: 500px;
+    margin-top: 360px;
+    margin-left: 800px;
+    background-image: url("resources/GUI/Window_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    visibility: hidden;
+}
+
+.settinglabel{
+
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 44px;
+    position: absolute;
+}
+
+.Music_lbl{
+
+    height: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    
+}
+
+.Music_lbl:hover{
+    cursor: pointer;
+    
+}
+
+.Menu_BTN1{
+
+    height: 50px;
+    margin-top: 430px;
+    margin-left: 5px;
+    position: absolute;
+
+}
+
+.Menu_BTN1:hover {
+
+    cursor: pointer;
+}
+
+
+
